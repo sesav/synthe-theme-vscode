@@ -1,0 +1,44 @@
+{
+  "name": "synthe-theme",
+  "displayName": "Synthe Theme",
+  "description": "A VS Code theme dripping in neon greens and electric purples. Built for hackers who code at medium brightness.",
+  "version": "1.0.2",
+  "icon": "icon.png",
+  "publisher": "sesav",
+  "author": {
+    "name": "Sergey Silaev",
+    "email": "hello@8am.dev"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/sesav/synthe-theme-vscode",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sesav/synthe-theme-vscode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sesav/synthe-theme-vscode/issues"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark theme",
+    "green",
+    "purple",
+    "synthe"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Synthe",
+        "uiTheme": "vs-dark",
+        "path": "./themes/synthe-color-theme.json"
+      }
+    ]
+  }
+}

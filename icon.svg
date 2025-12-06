@@ -1,0 +1,20 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="128" height="128" fill="#26222a" rx="16"/>
+
+  <!-- Shifted squares composition -->
+  <g opacity="0.9">
+    <!-- Purple square (back, top-left shifted) -->
+    <rect x="28" y="28" width="36" height="36" fill="#ab83ba" rx="4"/>
+
+    <!-- Green square (middle, center shifted) -->
+    <rect x="46" y="46" width="36" height="36" fill="#88b88e" rx="4"/>
+
+    <!-- Yellow square (front, bottom-right shifted) -->
+    <rect x="64" y="64" width="36" height="36" fill="#d9c362" rx="4"/>
+  </g>
+
+  <!-- Accent dots for depth -->
+  <circle cx="38" cy="38" r="3" fill="#ab83ba" opacity="0.5"/>
+  <circle cx="90" cy="90" r="3" fill="#d9c362" opacity="0.5"/>
+</svg>

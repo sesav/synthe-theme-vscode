@@ -2,7 +2,7 @@
   "name": "synthe-theme",
   "displayName": "Synthe Theme",
   "description": "A VS Code theme dripping in neon greens and electric purples. Built for hackers who code at medium brightness.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "icon": "icon.png",
   "publisher": "sesav",
   "author": {
